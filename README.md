@@ -46,7 +46,6 @@ A C++ console application that reads grocery items from an input file, counts it
 
 ---
 
-## How to Build and Run (Windows + g++)
 
 ## How to Build and Run (Windows + g++)
 
