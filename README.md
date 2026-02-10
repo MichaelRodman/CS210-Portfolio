@@ -49,7 +49,6 @@ A C++ console application that reads grocery items from an input file, counts it
 
 ## How to Build and Run (Windows + g++)
 
-### Build (from the repo root)
 # From repo root
 g++ -std=c++17 -Wall -Wextra -O2 .\Project3\main.cpp .\Project3\GroceryTracker.cpp -o GroceryTracker.exe
 
