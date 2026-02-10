@@ -48,20 +48,19 @@ A C++ console application that reads grocery items from an input file, counts it
 
 ## How to Build and Run (Windows + g++)
 
-From the repo root (the folder that contains `Project3/`), run:
+## How to Build and Run (Windows + g++)
+
+### Build (from the repo root)
+From the repo root (the folder that contains `Project3/`), compile:
 
     g++ -std=c++17 -Wall -Wextra -O2 .\Project3\main.cpp .\Project3\GroceryTracker.cpp -o GroceryTracker.exe
-    .\GroceryTracker.exe
 
-**Note:** If your program reads/writes files using relative paths, running from the repo root helps it find:
+### Run (from `Project3/`)
+This program reads/writes files using relative paths, so run it from inside `Project3/`:
 
-- `Project3/CS210_Project_Three_Input_File.txt`
+    cd .\Project3
+    ..\GroceryTracker.exe
 
-and create/update:
-
-- `Project3/frequency.dat`
-
-(depending on your implementation).
 
 ---
 
