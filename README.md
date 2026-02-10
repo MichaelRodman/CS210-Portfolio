@@ -50,15 +50,12 @@ A C++ console application that reads grocery items from an input file, counts it
 ## How to Build and Run (Windows + g++)
 
 ### Build (from the repo root)
-From the repo root (the folder that contains `Project3/`), compile:
+# From repo root
+g++ -std=c++17 -Wall -Wextra -O2 .\Project3\main.cpp .\Project3\GroceryTracker.cpp -o GroceryTracker.exe
 
-    g++ -std=c++17 -Wall -Wextra -O2 .\Project3\main.cpp .\Project3\GroceryTracker.cpp -o GroceryTracker.exe
-
-### Run (from `Project3/`)
-This program reads/writes files using relative paths, so run it from inside `Project3/`:
-
-    cd .\Project3
-    ..\GroceryTracker.exe
+# Run from Project3 (so the input file is found)
+cd .\Project3
+..\GroceryTracker.exe
 
 
 ---
